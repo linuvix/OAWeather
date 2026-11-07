@@ -1103,7 +1103,7 @@ class OAWeatherFavorites(Screen):
 	def checkChanges(self, returnFavorite):
 		if self.newFavList != weatherhelper.favoriteList:
 			self.returnFavorite = returnFavorite
-			msgtxt = _("Do you really want do exit without saving your modified favorite list?")
+			msgtxt = _("Do you really want to exit without saving your modified favorite list?")
 			self.session.openWithCallback(self.returnCheckChanges, MessageBox, msgtxt, MessageBox.TYPE_YESNO, timeout=10, default=False)
 		else:
 			self.close(returnFavorite)
