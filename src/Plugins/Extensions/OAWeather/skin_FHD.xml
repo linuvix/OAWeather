@@ -366,8 +366,6 @@
 		<ePixmap pixmap="{picpath}/ok.png" position="1650,1032" size="66,42" zPosition="3" transparent="1" alphatest="on" scale="1" />
 		<widget source="key_ok" render="Label" position="1725,1029" size="225,45" font="Regular;27" foregroundColor="#00ffffff" backgroundColor="#00000000" transparent="1" zPosition="1" halign="left" valign="center" />
 		<ePixmap pixmap="{picpath}/menu.png" position="1815,1032" size="66,42" zPosition="3" transparent="1" alphatest="on" scale="1" />
-		<eLabel text="by Mr.Servo &amp;jbleyel" font="Regular;21" position="1575,948" size="276,30" foregroundColor="#656565" backgroundColor="#80000000" zPosition="3" transparent="1" valign="center" halign="center" noWrap="1" />
-		<eLabel text="design by stein17" font="Regular;21" position="1575,978" size="276,30" foregroundColor="#656565" backgroundColor="#00000000" zPosition="3" transparent="1" valign="center" halign="center" noWrap="1" />
 		<eLabel name="line" position="75,231" size="1440,1" backgroundColor="#1a27408b" zPosition="3" />
 		<eLabel name="line" position="75,342" size="1440,1" backgroundColor="#1a27408b" zPosition="3" />
 		<eLabel name="line" position="75,453" size="1440,1" backgroundColor="#1a27408b" zPosition="3" />
