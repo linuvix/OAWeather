@@ -1064,7 +1064,7 @@ class OAWeatherFavorites(Screen):
 			self.currFavorite = self.newFavList[current]
 			weatherLocation = config.plugins.OAWeather.weatherlocation.value
 			if not weatherLocation or weatherhelper.isDifferentLocation(self.currFavorite, weatherLocation):
-				msgtxt = _("Do you really want do delete favorite\n'%s'?") % self.currFavorite[0]
+				msgtxt = _("Do you really want to delete favorite\n'%s'?") % self.currFavorite[0]
 				self.session.openWithCallback(self.returnKeyRed, MessageBox, msgtxt, MessageBox.TYPE_YESNO, timeout=10, default=False)
 			else:
 				msgtxt = _("The favorite '%s' corresponds to the set weather city name and therefore cannot be deleted.") % self.currFavorite[0]
