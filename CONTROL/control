@@ -1,5 +1,5 @@
 Package: enigma2-plugin-extensions-oaweather
-Version: 2.4
+Version: 2.5
 Description: Weather component
 Maintainer: jbleyel
 Depends: enigma2-tools-weatherinfo
